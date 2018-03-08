@@ -564,33 +564,32 @@
 
 
         <div class="row">
-          <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
-            <form action="#">
+          <!-- <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
+            <form action="include/sendmail.php" data-formtype="form_1" method="post">
               <div class="row">
                 <div class="col-md">
                   <div class="form-group">
-                    <label for="name">İsminiz</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="name">
+                    <label for="name">İsminiz*</label>
+                    <input aria-required="true" type="text" class="form-control p-3 rounded-0" id="name">
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
-                    <label for="email">E-posta Adresiniz</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="email">
+                    <label for="email">E-posta Adresiniz*</label>
+                    <input aria-required="true" type="text" class="form-control p-3 rounded-0" id="email">
                   </div>
                 </div>
               </div>
-
               <div class="form-group">
-                <label for="message">Mesajınızı buraya yazın...</label>
-                <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
+                <label for="message">Mesajınız*</label>
+                <textarea aria-required="true" cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Mesaj Gönder">
               </div>
             </form>
-          </div>
-          <div class="col-md-4">
+          </div> -->
+          <div class="col-md-7">
             <ul class="pb_contact_details_v1">
               <li>
                 <span class="text-uppercase">E-posta</span>
@@ -613,8 +612,10 @@
               </li>
             </ul>
           </div>
+					<div class="col-md-5">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d282.4742746181201!2d32.811593894109606!3d39.91143311600173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34e44431b677d%3A0x9ef3e1957b025555!2sNext+Level!5e0!3m2!1sen!2str!4v1520537076699" width="450" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
         </div>
-
       </div>
     </section>
     <!-- END section -->
