@@ -1,5 +1,4 @@
 html {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.15;
@@ -11,12 +10,10 @@ html {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 @-ms-viewport {
   width: device-width; }
-
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -33,7 +30,6 @@ body {
   outline: none !important; }
 
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
@@ -49,7 +45,6 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0; }
@@ -105,12 +100,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #64761b;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #2f380d;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -153,7 +148,6 @@ label,
 select,
 summary,
 textarea {
-  -ms-touch-action: manipulation;
   touch-action: manipulation; }
 
 table {
@@ -210,7 +204,6 @@ button::-moz-focus-inner,
 
 input[type="radio"],
 input[type="checkbox"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }
 
@@ -271,3 +264,5 @@ template {
 
 [hidden] {
   display: none !important; }
+
+/*# sourceMappingURL=bootstrap-reboot.css.map */
