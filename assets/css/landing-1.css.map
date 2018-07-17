@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,SAAU;EACT,gBAAgB,EAAE,kBAA+B;;AAElD,iBAAkB;ECgBjB,UAAU,EDfiB,OAAO;ECef,kBAAkB;EACrC,UAAU,EAAE,qDAA8C;EAAE,cAAc;EAC1E,UAAU,EAAE,wDAAgD;EAAE,6BAA6B;EAC3F,UAAU,EAAE,gDAAwC;EAAE,sDAAsD;EAC5G,uBAAuB,EAAE,IAAI;EAC5B,uBAAuB,EAAE,WAAW",
+"sources": ["../scss/landing-1.scss","../scss/mixins/_custom-mixins.scss"],
+"names": [],
+"file": "landing-1.css"
+}

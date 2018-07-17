@@ -10,7 +10,6 @@
   src: url("../fonts/slick/slick.eot?#iefix") format("embedded-opentype"), url("../fonts/slick/slick.woff") format("woff"), url("../fonts/slick/slick.ttf") format("truetype"), url("../fonts/slick/slick.svg#slick") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -75,3 +74,5 @@
       content: "←"; }
 
 /* Dots */
+
+/*# sourceMappingURL=slick-theme.css.map */

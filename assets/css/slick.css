@@ -2,7 +2,6 @@
 .slick-slider {
   position: relative;
   display: block;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-touch-callout: text;
   -webkit-user-select: text;
@@ -82,3 +81,5 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+/*# sourceMappingURL=slick.css.map */
